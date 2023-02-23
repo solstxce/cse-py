@@ -1,2 +1,3 @@
-str=input()
-print(f"Output of {str} is {eval(str)}")
+string=input("Enter a valid string: ")
+print(f"Output of {str} is ",end="")
+eval(string)
