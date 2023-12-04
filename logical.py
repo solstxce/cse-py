@@ -1,5 +1,7 @@
 a=int(input("Enter number 1: "))
 b=int(input("Enter number 2: "))
+print(a)
+print(b)
 operator=input("Enter operator: ")
 if operator=="and":
     result=(a<b and a<b*2)
